@@ -1,0 +1,30 @@
+.working{
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.working h1{
+    font-size: 300px;
+    color: #CAA892;
+}
+.working__text{
+    width: 40%;
+}
+.working__text button{
+    width: 100px;
+    height: 38px;
+    border: none;
+    border-radius: 25px 0 25px 0;
+    background: #37806B;
+    color: #fff;
+    font-weight: 600;
+    transition: .4s;
+}
+.working__text button:hover{
+    box-shadow: 7px 7px 0 #37806b77;
+    transform: translate(-5px, -5px);
+    cursor: pointer;
+}
+.working__img{
+    height: 400px;
+}

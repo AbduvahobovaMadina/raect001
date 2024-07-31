@@ -1,0 +1,15 @@
+.client{
+    text-align: center;
+    margin-top: 200px;
+}
+.title{
+    display: flex;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}

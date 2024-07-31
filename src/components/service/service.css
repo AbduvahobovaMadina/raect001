@@ -1,0 +1,40 @@
+.container h4{
+    color: #646464;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 90px;
+
+}
+.container h2{
+    font-weight: 600;
+    font-size: 40px;
+    color: #212121;
+    margin-bottom: 60px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.card{
+    width: 425px;
+    display: flex;
+    gap: 15px;
+    border-radius: 35px 0 35px 0;
+    padding: 30px;
+    background: rgb(252, 249, 249);
+    transition: .4s;
+    box-shadow: 0 0 10px #ddd;
+    user-select: none;
+}
+.card:hover{
+    box-shadow: 10px 10px 7px rgb(189, 187, 187);
+    transform: translate(-10px, -10px);
+    cursor: pointer;
+    background: #CAA892;
+    color: #fff;
+}
+.card img{
+    width: 40px;
+    height: 40px;
+}

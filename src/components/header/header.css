@@ -1,0 +1,65 @@
+.header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    background:rgba(255, 255, 255, 0.533);
+    border-bottom: 1px solid rgb(240, 227, 227);
+    margin-bottom: 40px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+   
+}
+.navbar{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar img{
+    width: 150px;
+    height: 37px;
+}
+.navbar__collection{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: black;
+    align-items: center;
+}
+.navbar__collection button{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 15px 0 15px 0;
+    background: #CAA892;
+    color: #fff;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.navbar__collection button:hover{
+    box-shadow: 7px 7px 0 #caa8927b;
+    transform: translate(-5px, -5px);
+    cursor: pointer;
+}
+.navbar__collection li {
+    transition: .4s;
+
+}
+.navbar__collection li:hover{
+    color: rgba(0, 0, 0, 0.484);
+    transform: translate(-3px, -2px);
+
+}
+.from-top{
+    transform: translateY(-20px);
+    opacity: 0;
+    animation: fromTop .35s ease-in  .3s forwards;
+}
+@keyframes fromTop{
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

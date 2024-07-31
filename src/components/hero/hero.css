@@ -1,0 +1,43 @@
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hero__context{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 40%;
+}
+.hero__context h4{
+    color: #646464;
+    font-weight: 600;
+    font-size: 20px;
+}
+.hero__context h1{
+    font-weight: 600;
+    font-size: 60px;
+    color: #212121;
+}
+.hero__context p{
+    color: #646464;
+
+}
+.hero__context button{
+    width: 100px;
+    height: 38px;
+    border: none;
+    border-radius: 25px 0 25px 0;
+    background: #37806B;
+    color: #fff;
+    font-weight: 600;
+    transition: .4s;
+}
+.hero__context button:hover{
+    box-shadow: 7px 7px 0 #37806b77;
+    transform: translate(-5px, -5px);
+    cursor: pointer;
+}
+.hero__img{
+    width: 50%;
+}
